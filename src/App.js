@@ -187,6 +187,12 @@ function App() {
       text: "Karpet lantai eropa style tersedia 50macam pilihan motif.",
       link: "https://shopee.co.id/Utama-Jakarta-UJ042-Karpet-Lantai-Eropa-Style-Uk-210-x-160cm-Karpet-Turkey-Bermotif-Tikar-Karpet-ruang-Tamu-Karpet-Kamar-Tidur-i.93045268.10197027305?xptdk=81ae08b4-e10b-4f1c-b1a7-b3e190b2c8ac",
     },
+    {
+      image: "https://down-id.img.susercontent.com/file/7ede912f5d39b94ac66662b924746053",
+      title: "Original Philips HD4515 Digital Rice Cooker HD4515/33 - HD 4515",
+      text: "PHILIPS HD4515 RICE COOKER",
+      link: "https://shopee.co.id/Original-Philips-HD4515-Digital-Rice-Cooker-HD4515-33-HD-4515-i.209799171.3434942286?sp_atk=fae4b4c1-075c-4fdb-b473-621d2e30d8e3&xptdk=fae4b4c1-075c-4fdb-b473-621d2e30d8e3",
+    },
   ];
 
   return (
