@@ -215,6 +215,21 @@ function App() {
       text: "PHILIPS HD4515 RICE COOKER",
       link: "https://shopee.co.id/Original-Philips-HD4515-Digital-Rice-Cooker-HD4515-33-HD-4515-i.209799171.3434942286?sp_atk=fae4b4c1-075c-4fdb-b473-621d2e30d8e3&xptdk=fae4b4c1-075c-4fdb-b473-621d2e30d8e3",
     },
+    {
+      image:
+        "https://down-id.img.susercontent.com/file/sg-11134201-7rcbw-lsuy89uxlqnn13",
+      title: "Krisbow Penghisap Debu Kering",
+      text: "Krisbow Penghisap Debu Kering 2 ltr 900 Watt Frvcd2A Alat Pembersih Vakum Cleaning Tool Mesin Dry Vacuum Cleaner ",
+      link: "https://shopee.co.id/Krisbow-Penghisap-Debu-Kering-2-ltr-900-Watt-Frvcd2A-Alat-Pembersih-Vakum-Cleaning-Tool-Mesin-Dry-Vacuum-Cleaner-Peralatan-Kebersihan-Penyedot-Kotoran-i.182588931.24868982305?sp_atk=91f49ecf-ebd7-4cbd-9071-c9133cd34ea6&xptdk=91f49ecf-ebd7-4cbd-9071-c9133cd34ea6",
+    },
+    {
+      image:
+        "https://down-id.img.susercontent.com/file/id-11134207-7r98p-lncd0c6reno697",
+      title:
+        "LOFTER Meja TV Minimalis /MEJA TV1.2/1.4/1.6M/Meja TV/Rak TV/Lemari TV/Kabinet TV/TV Cabinet /Rak TV Kayu/Lemari",
+      text: "LENOBLE Meja TV  Minimalis /MEJA TV1.2/1.4/1.6M/Meja TV/Rak TV/Lemari TV/Kabinet TV/TV Cabinet /Rak TV Kayu/Lemari",
+      link: "https://shopee.co.id/LOFTER-Meja-TV-Minimalis-MEJA-TV1.2-1.4-1.6M-Meja-TV-Rak-TV-Lemari-TV-Kabinet-TV-TV-Cabinet-Rak-TV-Kayu-Lemari-i.854244917.23251754490?sp_atk=f9c251bf-77cc-4cd7-bc90-ce0e51862183&xptdk=f9c251bf-77cc-4cd7-bc90-ce0e51862183",
+    },
   ];
 
   return (

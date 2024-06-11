@@ -18,7 +18,7 @@ const EventCard = ({ image, title, text, link }) => {
           {" "}
           {/* Tambahkan div dengan class "mt-auto" untuk membuat tombol berada di bagian bawah */}
           <Button variant="danger" href={link}>
-            Buy Now
+            Hadiahkan ke Lian dan Gina
           </Button>
         </div>
       </Card.Body>
