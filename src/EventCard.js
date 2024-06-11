@@ -13,7 +13,6 @@ const EventCard = ({ image, title, text, link }) => {
       </div>
       <Card.Body className="d-flex flex-column">
         <Card.Title>{title}</Card.Title>
-<<<<<<< HEAD
         <Card.Text style={{ overflowY: "auto" }}>{text}</Card.Text>
         <div className="mt-auto">
           {" "}
@@ -22,12 +21,6 @@ const EventCard = ({ image, title, text, link }) => {
             Buy Now
           </Button>
         </div>
-=======
-        <Card.Text>{text}</Card.Text>
-        <Button variant="primary" href={link}>
-          Hadiahkan ke Lian & Gina
-        </Button>
->>>>>>> 9c03d0da8612114c21d9ee2abf2c2b815342db39
       </Card.Body>
     </Card>
   );
