@@ -37,28 +37,32 @@ function App() {
 
   const cardData = [
     {
-      image: "https://via.placeholder.com/150",
-      title: "Event Title 1",
-      text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      link: "#",
+      image:
+        "https://down-id.img.susercontent.com/file/id-11134207-7r98w-lsrxlmjqxi6hed",
+      title: "Panci Sup Stainless ",
+      text: "Panci Stockpot terbuat dari stainless steel tebal berkualitas, anti karat dan sangat kuat. Dengan desain yang cantik dan elegan. Cocok digunakan untuk memasak dan menghangatkan makanan.",
+      link: "https://shopee.co.id/%E3%80%90Gratis-Ongkir%E3%80%91Panci-Sup-Stainless-Termasuk-Saringan-Kukusan-Panci-Besar-serbaguna-Kapasitas-Tinggi-Panci-Sop-Panci-Aladin-Steamer-Panci-Marsha-High-Pot-Panci-Tinggi-Stainless-Steel-Tebal-Panci-Sup-Tutup-Kaca-Soup-Pot-Panci-Mie-Rebus-Panci-i.1129388801.24217763177?xptdk=64db3dc1-5b2a-4132-8c70-e11e4fcab206",
     },
     {
-      image: "https://via.placeholder.com/150",
-      title: "Event Title 2",
-      text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      link: "#",
+      image:
+        "https://down-id.img.susercontent.com/file/id-11134207-7qukz-lheyoregeghg96",
+      title: "Diffuser Humidifier Aromatherapy",
+      text: "1 Pcs Diffuser 500ml Remote dengan 4 Essential Oil Garansi Seumur Hidup.",
+      link: "https://shopee.co.id/DIFFUSER-HUMIDIFIER-AROMATHERAPY-500ML-FREE-4-ESSENTIAL-OIL-10ML-BY-PHARMACIE-ORGANICO-GARANSI-SEUMUR-HIDUP-i.431200900.6496916941?xptdk=57aafe4f-3329-4419-ab72-3d6bfb99e28f",
     },
     {
-      image: "https://via.placeholder.com/150",
-      title: "Event Title 3",
-      text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      link: "#",
+      image:
+        "https://down-id.img.susercontent.com/file/id-11134207-7r992-lpujgsw0dp88b4",
+      title: "SKINTIFIC 5X Ceramide Barrier Serum",
+      text: "Serum yang diformulasikan untuk mengoptimalkan perbaikan skin barrier yang rusak. ",
+      link: "https://shopee.co.id/%E3%80%90BIG-SIZE-50mL%E3%80%91-SKINTIFIC-5X-Ceramide-Barrier-Serum-50ml-Facial-Serum-Ceramide-Serum-Skintific-Serum-i.292211284.22066294732?xptdk=65555256-2203-4dfd-8b3e-ad340dce54b2",
     },
     {
-      image: "https://via.placeholder.com/150",
-      title: "Event Title 4",
-      text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      link: "#",
+      image:
+        "https://down-id.img.susercontent.com/file/d2c766e0d665f539141752e33a54b2ca",
+      title: "Maxim Galaxy Wajan Penggorengan Tanpa Tutup",
+      text: "Maxim Galaxy dilengkapi dengan cover sebagai penutupnya agar masakan lebih cepat matang sempurna. Terbuat dari teflon berkualitas food grade dengan desain galaxy atau luar angkasa membuat memasak Anda menjadi lebih menyenangkan.",
+      link: "https://shopee.co.id/Maxim-Galaxy-Wajan-Penggorengan-Tanpa-Tutup-Wok-without-Cover-36-cm-(GAL36WOK)-i.178828848.6153569487?xptdk=c2c458b2-aacb-4a25-9761-3709c9804d8e",
     },
     {
       image: "https://via.placeholder.com/150",

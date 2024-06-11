@@ -10,7 +10,7 @@ const EventCard = ({ image, title, text, link }) => {
         <Card.Title>{title}</Card.Title>
         <Card.Text>{text}</Card.Text>
         <Button variant="primary" href={link}>
-          Go somewhere
+          Hadiahkan ke Lian & Gina
         </Button>
       </Card.Body>
     </Card>
