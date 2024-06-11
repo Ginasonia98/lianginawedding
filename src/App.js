@@ -4,6 +4,7 @@ import NavbarComponent from "./NavbarComponent";
 import FooterComponent from "./FooterComponent";
 import EventCard from "./EventCard";
 import ReactPlayer from "react-player";
+import Banner from "./Banner"; // Import Banner component
 
 function App() {
   const playerRef = useRef(null);
@@ -39,73 +40,85 @@ function App() {
     {
       image: "https://via.placeholder.com/150",
       title: "Event Title 1",
-      text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      text:
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
       link: "#",
     },
     {
       image: "https://via.placeholder.com/150",
-      title: "Event Title 2",
-      text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      title: "Event Title 1",
+      text:
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
       link: "#",
     },
     {
       image: "https://via.placeholder.com/150",
-      title: "Event Title 3",
-      text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      title: "Event Title 1",
+      text:
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
       link: "#",
     },
     {
       image: "https://via.placeholder.com/150",
-      title: "Event Title 4",
-      text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      title: "Event Title 1",
+      text:
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
       link: "#",
     },
     {
       image: "https://via.placeholder.com/150",
-      title: "Event Title 5",
-      text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      title: "Event Title 1",
+      text:
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
       link: "#",
     },
     {
       image: "https://via.placeholder.com/150",
-      title: "Event Title 6",
-      text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      title: "Event Title 1",
+      text:
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
       link: "#",
     },
     {
       image: "https://via.placeholder.com/150",
-      title: "Event Title 7",
-      text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      title: "Event Title 1",
+      text:
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
       link: "#",
     },
     {
       image: "https://via.placeholder.com/150",
-      title: "Event Title 8",
-      text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      title: "Event Title 1",
+      text:
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
       link: "#",
     },
     {
       image: "https://via.placeholder.com/150",
-      title: "Event Title 9",
-      text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      title: "Event Title 1",
+      text:
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
       link: "#",
     },
     {
       image: "https://via.placeholder.com/150",
-      title: "Event Title 10",
-      text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      title: "Event Title 1",
+      text:
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
       link: "#",
     },
     {
       image: "https://via.placeholder.com/150",
-      title: "Event Title 11",
-      text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      title: "Event Title 1",
+      text:
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
       link: "#",
     },
     {
       image: "https://via.placeholder.com/150",
-      title: "Event Title 12",
-      text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      title: "Event Title 1",
+      text:
+        "Some quick example text to build on the card title and make up the bulk of the card's content.",
       link: "#",
     },
   ];
@@ -113,6 +126,8 @@ function App() {
   return (
     <div className="d-flex flex-column min-vh-100">
       <NavbarComponent />
+
+      <Banner /> {/* Place Banner component below NavbarComponent */}
 
       <Container className="mt-5 mb-5 flex-grow-1">
         <h1 className="text-center">Gift Wishlist</h1>
