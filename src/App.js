@@ -1,11 +1,40 @@
-// src/App.js
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import NavbarComponent from "./NavbarComponent";
 import FooterComponent from "./FooterComponent";
 import EventCard from "./EventCard";
+import ReactPlayer from "react-player";
 
 function App() {
+  const playerRef = useRef(null);
+
+  useEffect(() => {
+    const startAudio = () => {
+      const internalPlayer = playerRef.current?.getInternalPlayer();
+      if (internalPlayer?.playVideo) {
+        internalPlayer.playVideo();
+      }
+    };
+
+    const handlePlayerReady = () => {
+      if (playerRef.current) {
+        playerRef.current.seekTo(14);
+        startAudio();
+      }
+    };
+
+    // Add a delay to ensure the player is ready
+    const timeoutId = setTimeout(handlePlayerReady, 1000);
+
+    // Add event listener to handle autoplay block
+    window.addEventListener("click", startAudio);
+
+    return () => {
+      clearTimeout(timeoutId);
+      window.removeEventListener("click", startAudio);
+    };
+  }, []);
+
   const cardData = [
     {
       image: "https://via.placeholder.com/150",
@@ -102,6 +131,15 @@ function App() {
       </Container>
 
       <FooterComponent />
+
+      <ReactPlayer
+        ref={playerRef}
+        url="https://www.youtube.com/watch?v=1WCIrw85zbQ"
+        playing
+        controls
+        onReady={() => playerRef.current.seekTo(14)}
+        style={{ display: "none" }}
+      />
     </div>
   );
 }
