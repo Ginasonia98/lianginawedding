@@ -52,10 +52,17 @@ function App() {
     },
     {
       image:
+<<<<<<< HEAD
         "https://down-id.img.susercontent.com/file/id-11134207-7r98y-lqxgaa7kgldg09",
       title: "EVERGREEN Dekorasi Vas Bunga",
       text: "EVERGREEN Dekorasi Vas Bunga Blossom Putih Eropa Retro Set 3 PCS - Pajangan Hiasan 3IN1 Decor Klasik / Dekor Ruangan Rumah ",
       link: "https://shopee.co.id/EVERGREEN-Dekorasi-Vas-Bunga-Blossom-Putih-Eropa-Retro-Set-3-PCS-Pajangan-Hiasan-3IN1-Decor-Klasik-Dekor-Ruangan-Rumah-Keramik-Aesthetic-Besar-Unik-Modern-i.1067723096.24410766384?xptdk=759ef125-91a8-41fa-bb33-dce50d97c2d9",
+=======
+        "https://down-id.img.susercontent.com/file/id-11134207-7r992-lpujgsw0dp88b4",
+      title: "SKINTIFIC 5X Ceramide Barrier Serum",
+      text: "Serum yang diformulasikan untuk mengoptimalkan perbaikan skin barrier yang rusak. ",
+      link: "https://shopee.co.id/%E3%80%90BIG-SIZE-50mL%E3%80%91-SKINTIFIC-5X-Ceramide-Barrier-Serum-50ml-Facial-Serum-Ceramide-Serum-Skintific-Serum-i.292211284.22066294732?xptdk=65555256-2203-4dfd-8b3e-ad340dce54b2",
+>>>>>>> 9c03d0da8612114c21d9ee2abf2c2b815342db39
     },
     {
       image:
