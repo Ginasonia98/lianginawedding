@@ -182,10 +182,10 @@ function App() {
     },
     {
       image:
-        "https://down-id.img.susercontent.com/file/sg-11134201-23020-6vt4sxlb49mv5c",
-      title: "Tempat Penyimpanan Beras Rice Box ",
-      text: "Tempat Penyimpanan Beras Rice Box MRD 2800 AP Maspion.",
-      link: "https://shopee.co.id/Tempat-Penyimpanan-Beras-Rice-Box-MRD-2800-AP-Maspion-i.177367527.18272666297?xptdk=b8a85718-5857-46f5-ba05-1fd729cd2212",
+        "https://down-id.img.susercontent.com/file/350b8263e9d58216bbc1302546974ec1",
+      title: "COSMOS Rice Box",
+      text: "COSMOS Rice Box Tepat Beras 38 Kg - 38 BIO - 38kg BIO.",
+      link: "https://shopee.co.id/COSMOS-Rice-Box-Tepat-Beras-38-Kg-38-BIO-38kg-BIO-i.6803262.402183210?sp_atk=adf524b4-9004-4585-9d73-43a3ed32505b&xptdk=adf524b4-9004-4585-9d73-43a3ed32505b",
     },
     {
       image:
@@ -229,6 +229,97 @@ function App() {
         "LOFTER Meja TV Minimalis /MEJA TV1.2/1.4/1.6M/Meja TV/Rak TV/Lemari TV/Kabinet TV/TV Cabinet /Rak TV Kayu/Lemari",
       text: "LENOBLE Meja TV  Minimalis /MEJA TV1.2/1.4/1.6M/Meja TV/Rak TV/Lemari TV/Kabinet TV/TV Cabinet /Rak TV Kayu/Lemari",
       link: "https://shopee.co.id/LOFTER-Meja-TV-Minimalis-MEJA-TV1.2-1.4-1.6M-Meja-TV-Rak-TV-Lemari-TV-Kabinet-TV-TV-Cabinet-Rak-TV-Kayu-Lemari-i.854244917.23251754490?sp_atk=f9c251bf-77cc-4cd7-bc90-ce0e51862183&xptdk=f9c251bf-77cc-4cd7-bc90-ce0e51862183",
+    },
+    {
+      image:
+        "https://down-id.img.susercontent.com/file/sg-11134201-22120-budqyg50dskvd7",
+      title: "Air Fryer MITO",
+      text: "Air Fryer MITO Grande AF10 Kapasitas 6 Liter Menggoreng Tanpa Minyak",
+      link: "https://shopee.co.id/Air-Fryer-MITO-Grande-AF10-Kapasitas-6-Liter-Menggoreng-Tanpa-Minyak-i.62318.12047644960?sp_atk=bbbf2588-6c04-4b0e-984f-6dfd1e57816f&xptdk=bbbf2588-6c04-4b0e-984f-6dfd1e57816f",
+    },
+    {
+      image:
+        "https://down-id.img.susercontent.com/file/21c7205da9cdb3848916d0966353c59d",
+      title: "BEAN BAG",
+      text: "BEAN BAG TERMURAH TRIANGLE SOFABED DEWASA LARGE TERMASUK ISI SIAP PAKAI",
+      link: "https://shopee.co.id/BEAN-BAG-TERMURAH-TRIANGLE-SOFABED-DEWASA-LARGE-TERMASUK-ISI-SIAP-PAKAI-i.280650931.19724486159?sp_atk=ea83d924-a130-4a1c-8fd9-c618bde9d159&xptdk=ea83d924-a130-4a1c-8fd9-c618bde9d159",
+    },
+    {
+      image:
+        "https://down-id.img.susercontent.com/file/sg-11134201-22120-w2ozlrcytskv6e",
+      title: "Sofa Santai Angin",
+      text: "Sofa Santai Angin Intime/ Kursi Santai Dengan Sandaran Kaki",
+      link: "https://shopee.co.id/Sofa-Santai-Angin-Intime-Kursi-Santai-Dengan-Sandaran-Kaki-i.289369609.18267350255?sp_atk=5ab3099c-3437-4db3-9007-02abfb42063b&xptdk=5ab3099c-3437-4db3-9007-02abfb42063b",
+    },
+    {
+      image:
+        "https://down-id.img.susercontent.com/file/id-11134201-7r98r-loukyan0sb5nde",
+      title: "Informa Beta Kursi Makan",
+      text: "Informa Beta Kursi Makan - Hitam Dining Chair Tempat Duduk Ruang Makan Kursi Kafe Restoran",
+      link: "https://shopee.co.id/Informa-Beta-Kursi-Makan-Hitam-Dining-Chair-Tempat-Duduk-Ruang-Makan-Kursi-Kafe-Restoran-i.586863199.14215874235?sp_atk=b4cb4904-9179-4440-8acf-24a08f239a0e&xptdk=b4cb4904-9179-4440-8acf-24a08f239a0e",
+    },
+    {
+      image:
+        "https://down-id.img.susercontent.com/file/id-11134207-7r98o-ltyo2h1udylk8d",
+      title: "Kursi Cafe",
+      text: "Kursi Cafe Kursi Belajar Kursi Makan Kursi Kantor Kursi Minimalis Kursi Santai Kursi Makan Sandaran",
+      link: "https://shopee.co.id/Kursi-Cafe-Kursi-Belajar-Kursi-Makan-Kursi-Kantor-Kursi-Minimalis-Kursi-Santai-Kursi-Makan-Sandaran-i.969073131.25221847222?sp_atk=b6798c33-dab5-4875-bf26-14d570a5b11c&xptdk=b6798c33-dab5-4875-bf26-14d570a5b11c",
+    },
+    {
+      image:
+        "https://down-id.img.susercontent.com/file/0d55c2d8ffc1e5a6c0b5a182837ce3d9",
+      title:
+        "lemari pakaian",
+      text: "lemari pakaian sliding door full cermin. modern minimalis murah dan mewah. lemari baju 2 pintu sleding geser, ada laci, gantungan, kunci",
+      link: "https://shopee.co.id/lemari-pakaian-sliding-door-full-cermin.-modern-minimalis-murah-dan-mewah.-lemari-baju-2-pintu-sleding-geser-ada-laci-gantungan-kunci-ada-bahan-papan-kayu-kokoh-kuat-awet-ukuran-jumbo-besar.-i.15386875.7633720435?sp_atk=4ef3c4b0-165d-4b74-9729-84828e020f9e&xptdk=4ef3c4b0-165d-4b74-9729-84828e020f9e",
+    },
+    {
+      image:
+        "https://down-id.img.susercontent.com/file/id-11134207-7quky-lf9o8u016bg1ac",
+      title:
+        "BARDI Smart IP Camera CCTV",
+      text: "BARDI Smart IP Camera CCTV Indoor Wifi PTZ 360 2MP 1080P Wireless Pantau Jarak Jauh lewat HP",
+      link: "https://shopee.co.id/BARDI-Smart-IP-Camera-CCTV-Indoor-Wifi-PTZ-360-2MP-1080P-Wireless-Pantau-Jarak-Jauh-lewat-HP-i.450864017.8258906999?sp_atk=32503308-bb06-463c-8146-ba15c8e60b1f&xptdk=32503308-bb06-463c-8146-ba15c8e60b1f",
+    },
+    {
+      image:
+        "https://down-id.img.susercontent.com/file/id-11134207-7r98p-loax324tsjybd7",
+      title:
+        "Philips Hair Dryer",
+      text: "Philips Hair Dryer Essential Care BHC010/12 Pengering Rambut",
+      link: "https://shopee.co.id/Philips-Hair-Dryer-Essential-Care-BHC010-12-Pengering-Rambut-i.438891817.4988694731?sp_atk=f0d37ff2-f468-4a81-82dd-9717ea29b832&xptdk=f0d37ff2-f468-4a81-82dd-9717ea29b832",
+    },
+    {
+      image:
+        "https://down-id.img.susercontent.com/file/id-11134207-7r98q-lw8iq7ohqp7i00",
+      title:
+        "Hisense 40 FHD Android",
+      text: "Hisense 40 FHD Android 11 Smart TV-Bezelless Design-Dolby Audio- Youtube/Netflix/Prime video-Casting-Google System-Sports&Game",
+      link: "https://shopee.co.id/Hisense-40-FHD-Android-11-Smart-TV-Bezelless-Design-Dolby-Audio-Youtube-Netflix-Prime-video-Casting-Google-System-Sports-Game-mode-Wifi-USB-Clean-View-Master-Pro-(40E5G)-i.251105105.16567929595?sp_atk=960bf530-aa85-434b-8bb7-5bcf2807f67f&xptdk=960bf530-aa85-434b-8bb7-5bcf2807f67f",
+    },
+    {
+      image:
+        "https://down-id.img.susercontent.com/file/sg-11134201-22100-x685tph3jriv94",
+      title:
+        "SOFA L ",
+      text: "SOFA L MEJA STENLIS BAHAN WOSH, OSCAR, KAIN, EMPUK (GRATIS MASKER)",
+      link: "https://shopee.co.id/SOFA-L-MEJA-STENLIS-BAHAN-WOSH-OSCAR-KAIN-EMPUK-(GRATIS-MASKER)-i.202377483.5928875115?sp_atk=43a4c019-336b-4883-b6b6-870975882c64&xptdk=43a4c019-336b-4883-b6b6-870975882c64",
+    },
+    {
+      image:
+        "https://down-id.img.susercontent.com/file/id-11134207-7r98p-loaxcj4elpmy91",
+      title:
+        "Philips Hair Straightener",
+      text: "Philips Hair Straightener Keratin Ceramic BHS376/00 Catokan Rambut",
+      link: "https://shopee.co.id/Philips-Hair-Straightener-Keratin-Ceramic-BHS376-00-Catokan-Rambut-i.438891817.11203510305?sp_atk=63e05bfb-4178-44d2-ae8a-3337fef70d76&xptdk=63e05bfb-4178-44d2-ae8a-3337fef70d76",
+    },
+    {
+      image:
+        "https://down-id.img.susercontent.com/file/49688573bab1935b076946549b92d441",
+      title:
+        "Mesin Cuci 1 Tabung SHARP ",
+      text: "Mesin Cuci 1 Tabung SHARP ESM 7000 PGG 7KG Quick Wash Zero Pressure",
+      link: "https://shopee.co.id/Mesin-Cuci-1-Tabung-SHARP-ESM-7000-PGG-7KG-Quick-Wash-Zero-Pressure-i.23905535.3868212752?sp_atk=64cd1397-d92f-4af0-bf24-ae58633ffd56&xptdk=64cd1397-d92f-4af0-bf24-ae58633ffd56",
     },
   ];
 
