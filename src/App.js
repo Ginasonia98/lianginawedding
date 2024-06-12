@@ -268,56 +268,49 @@ function App() {
     {
       image:
         "https://down-id.img.susercontent.com/file/0d55c2d8ffc1e5a6c0b5a182837ce3d9",
-      title:
-        "lemari pakaian",
+      title: "lemari pakaian",
       text: "lemari pakaian sliding door full cermin. modern minimalis murah dan mewah. lemari baju 2 pintu sleding geser, ada laci, gantungan, kunci",
       link: "https://shopee.co.id/lemari-pakaian-sliding-door-full-cermin.-modern-minimalis-murah-dan-mewah.-lemari-baju-2-pintu-sleding-geser-ada-laci-gantungan-kunci-ada-bahan-papan-kayu-kokoh-kuat-awet-ukuran-jumbo-besar.-i.15386875.7633720435?sp_atk=4ef3c4b0-165d-4b74-9729-84828e020f9e&xptdk=4ef3c4b0-165d-4b74-9729-84828e020f9e",
     },
     {
       image:
         "https://down-id.img.susercontent.com/file/id-11134207-7quky-lf9o8u016bg1ac",
-      title:
-        "BARDI Smart IP Camera CCTV",
+      title: "BARDI Smart IP Camera CCTV",
       text: "BARDI Smart IP Camera CCTV Indoor Wifi PTZ 360 2MP 1080P Wireless Pantau Jarak Jauh lewat HP",
       link: "https://shopee.co.id/BARDI-Smart-IP-Camera-CCTV-Indoor-Wifi-PTZ-360-2MP-1080P-Wireless-Pantau-Jarak-Jauh-lewat-HP-i.450864017.8258906999?sp_atk=32503308-bb06-463c-8146-ba15c8e60b1f&xptdk=32503308-bb06-463c-8146-ba15c8e60b1f",
     },
     {
       image:
         "https://down-id.img.susercontent.com/file/id-11134207-7r98p-loax324tsjybd7",
-      title:
-        "Philips Hair Dryer",
+      title: "Philips Hair Dryer",
       text: "Philips Hair Dryer Essential Care BHC010/12 Pengering Rambut",
       link: "https://shopee.co.id/Philips-Hair-Dryer-Essential-Care-BHC010-12-Pengering-Rambut-i.438891817.4988694731?sp_atk=f0d37ff2-f468-4a81-82dd-9717ea29b832&xptdk=f0d37ff2-f468-4a81-82dd-9717ea29b832",
     },
     {
       image:
         "https://down-id.img.susercontent.com/file/id-11134207-7r98q-lw8iq7ohqp7i00",
-      title:
-        "Hisense 40 FHD Android",
+      title: "Hisense 40 FHD Android",
       text: "Hisense 40 FHD Android 11 Smart TV-Bezelless Design-Dolby Audio- Youtube/Netflix/Prime video-Casting-Google System-Sports&Game",
       link: "https://shopee.co.id/Hisense-40-FHD-Android-11-Smart-TV-Bezelless-Design-Dolby-Audio-Youtube-Netflix-Prime-video-Casting-Google-System-Sports-Game-mode-Wifi-USB-Clean-View-Master-Pro-(40E5G)-i.251105105.16567929595?sp_atk=960bf530-aa85-434b-8bb7-5bcf2807f67f&xptdk=960bf530-aa85-434b-8bb7-5bcf2807f67f",
     },
     {
       image:
         "https://down-id.img.susercontent.com/file/sg-11134201-22100-x685tph3jriv94",
-      title:
-        "SOFA L ",
+      title: "SOFA L ",
       text: "SOFA L MEJA STENLIS BAHAN WOSH, OSCAR, KAIN, EMPUK (GRATIS MASKER)",
       link: "https://shopee.co.id/SOFA-L-MEJA-STENLIS-BAHAN-WOSH-OSCAR-KAIN-EMPUK-(GRATIS-MASKER)-i.202377483.5928875115?sp_atk=43a4c019-336b-4883-b6b6-870975882c64&xptdk=43a4c019-336b-4883-b6b6-870975882c64",
     },
     {
       image:
         "https://down-id.img.susercontent.com/file/id-11134207-7r98p-loaxcj4elpmy91",
-      title:
-        "Philips Hair Straightener",
+      title: "Philips Hair Straightener",
       text: "Philips Hair Straightener Keratin Ceramic BHS376/00 Catokan Rambut",
       link: "https://shopee.co.id/Philips-Hair-Straightener-Keratin-Ceramic-BHS376-00-Catokan-Rambut-i.438891817.11203510305?sp_atk=63e05bfb-4178-44d2-ae8a-3337fef70d76&xptdk=63e05bfb-4178-44d2-ae8a-3337fef70d76",
     },
     {
       image:
         "https://down-id.img.susercontent.com/file/49688573bab1935b076946549b92d441",
-      title:
-        "Mesin Cuci 1 Tabung SHARP ",
+      title: "Mesin Cuci 1 Tabung SHARP ",
       text: "Mesin Cuci 1 Tabung SHARP ESM 7000 PGG 7KG Quick Wash Zero Pressure",
       link: "https://shopee.co.id/Mesin-Cuci-1-Tabung-SHARP-ESM-7000-PGG-7KG-Quick-Wash-Zero-Pressure-i.23905535.3868212752?sp_atk=64cd1397-d92f-4af0-bf24-ae58633ffd56&xptdk=64cd1397-d92f-4af0-bf24-ae58633ffd56",
     },
@@ -332,8 +325,16 @@ function App() {
           className="text-center"
           style={{ color: "#FF204E", textDecoration: "underline" }}
         >
-          Gift Wishlist
+          <a
+            href="https://docs.google.com/spreadsheets/d/12etNzd3QGozjJpWvQnOEpJSyvRs_p6LMHt1b5-AwA_o/edit?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "#FF204E", textDecoration: "underline" }}
+          >
+            Gift Wishlist
+          </a>
         </h1>
+
         <Row className="mt-4">
           {cardData.map((card, index) => (
             <Col md={4} key={index} className="mb-4">

@@ -2,6 +2,13 @@ import React from "react";
 import { Card, Button } from "react-bootstrap";
 
 const EventCard = ({ image, title, text, link }) => {
+  const handleButtonClick = () => {
+    const userConfirmed = window.confirm("Silakan cek pada keterangan gift wishlist. Apakah Anda ingin melanjutkan?");
+    if (userConfirmed) {
+      window.open(link, "_blank");
+    }
+  };
+
   return (
     <Card className="h-100">
       <div style={{ height: "200px", overflow: "hidden" }}>
@@ -15,10 +22,8 @@ const EventCard = ({ image, title, text, link }) => {
         <Card.Title>{title}</Card.Title>
         <Card.Text style={{ overflowY: "auto" }}>{text}</Card.Text>
         <div className="mt-auto">
-          {" "}
-          {/* Tambahkan div dengan class "mt-auto" untuk membuat tombol berada di bagian bawah */}
-          <Button variant="danger" href={link}>
-            Hadiahkan ke Lian dan Gina
+          <Button variant="danger" onClick={handleButtonClick}>
+            Hadiahkan ke Lian dan Gina
           </Button>
         </div>
       </Card.Body>
@@ -27,3 +32,4 @@ const EventCard = ({ image, title, text, link }) => {
 };
 
 export default EventCard;
+
