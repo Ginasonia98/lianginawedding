@@ -67,7 +67,14 @@ const App = () => {
           className="text-center"
           style={{ color: "#FF204E", textDecoration: "underline" }}
         >
-          Gift Wishlist
+          <a
+            href="https://docs.google.com/spreadsheets/d/12etNzd3QGozjJpWvQnOEpJSyvRs_p6LMHt1b5-AwA_o/edit?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "#FF204E", textDecoration: "underline" }}
+          >
+            Gift Wishlist
+          </a>
         </h1>
         {products.length !== 0 && (
           <Row className="mt-4">
