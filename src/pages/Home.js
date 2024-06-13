@@ -5,20 +5,12 @@ import FooterComponent from "../components/FooterComponent";
 import EventCard from "../components/EventCard";
 import ReactPlayer from "react-player";
 import { db } from "../firebaseConfig";
-import { cardData } from "../constants";
-import { addDoc, collection, getDocs } from "firebase/firestore";
+import { collection, getDocs } from "firebase/firestore";
 
 const Home = () => {
   const productsRef = collection(db, "products");
   const playerRef = useRef(null);
   const [products, setProducts] = useState([]);
-
-  /**@function addProduct manually add products to firebase*/
-  const addProduct = async () => {
-    await cardData.map(async (data, _) => {
-      await addDoc(productsRef, data);
-    });
-  };
 
   const getProducts = async () => {
     const data = await getDocs(productsRef);
