@@ -4,7 +4,7 @@ import GiftConfirmation from "./GiftConfirmation";
 import { setDoc, doc, getDoc } from "firebase/firestore";
 import { db } from "../firebaseConfig";
 
-const EventCard = ({ card }) => {
+const EventCard = ({ card, location }) => {
   const { image, title, text, link } = card;
   const [showModal, setShowModal] = useState(false);
   const [receipt, setReceipt] = useState(null);
@@ -68,7 +68,7 @@ const EventCard = ({ card }) => {
           <Card.Text style={{ overflowY: "auto" }} className="fs-6">
             {text}
           </Card.Text>
-          {!receipt && (
+          {!receipt && !location && (
             <div className="mt-auto">
               <Button variant="danger" href={link}>
                 Hadiahkan
