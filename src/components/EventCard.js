@@ -81,6 +81,7 @@ const EventCard = ({ card, location, deleteData, updateData }) => {
               <Button variant="danger" href={link}>
                 Hadiahkan
               </Button>
+              <br />
               <Button className="mt-2" variant="info" onClick={handleShow}>
                 Konfirmasi Pengiriman
               </Button>
