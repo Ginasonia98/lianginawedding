@@ -1,14 +1,14 @@
 import React, { useRef, useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import NavbarComponent from "./components/NavbarComponent";
-import FooterComponent from "./components/FooterComponent";
-import EventCard from "./components/EventCard";
+import NavbarComponent from "../components/NavbarComponent";
+import FooterComponent from "../components/FooterComponent";
+import EventCard from "../components/EventCard";
 import ReactPlayer from "react-player";
-import { db } from "./firebaseConfig";
-import { cardData } from "./constants";
+import { db } from "../firebaseConfig";
+import { cardData } from "../constants";
 import { addDoc, collection, getDocs } from "firebase/firestore";
 
-const App = () => {
+const Home = () => {
   const productsRef = collection(db, "products");
   const playerRef = useRef(null);
   const [products, setProducts] = useState([]);
@@ -91,4 +91,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Home;
