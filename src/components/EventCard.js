@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Card, Button } from "react-bootstrap";
 import GiftConfirmation from "./GiftConfirmation";
 import { setDoc, doc, getDoc } from "firebase/firestore";
-import { db } from "./firebaseConfig";
+import { db } from "../firebaseConfig";
 
 const EventCard = ({ card }) => {
   const { image, title, text, link } = card;
@@ -64,15 +64,17 @@ const EventCard = ({ card }) => {
           />
         </div>
         <Card.Body className="d-flex flex-column">
-          <Card.Title>{title}</Card.Title>
-          <Card.Text style={{ overflowY: "auto" }}>{text}</Card.Text>
+          <Card.Title className="fs-5 fw-bold mb-3">{title}</Card.Title>
+          <Card.Text style={{ overflowY: "auto" }} className="fs-6">
+            {text}
+          </Card.Text>
           {!receipt && (
             <div className="mt-auto">
               <Button variant="danger" href={link}>
-                Hadiahkan ke Lian dan Gina
+                Hadiahkan
               </Button>
               <Button className="mt-2" variant="info" onClick={handleShow}>
-                Konfirmasi Pengirim
+                Konfirmasi Pengiriman
               </Button>
             </div>
           )}

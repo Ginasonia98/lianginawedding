@@ -4,7 +4,11 @@ import { FaHeart } from "react-icons/fa"; // Import ikon hati
 
 const NavbarComponent = () => {
   return (
-    <Navbar expand="lg" style={{ backgroundColor: "pink" }}>
+    <Navbar
+      expand="lg"
+      style={{ backgroundColor: "pink" }}
+      className="sticky-top"
+    >
       <Container>
         <Navbar.Brand href="#home" style={{ color: "white" }}>
           <FaHeart className="me-2" /> {/* Tambahkan ikon di sini */}

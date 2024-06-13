@@ -1,8 +1,8 @@
 import React, { useRef, useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import NavbarComponent from "./NavbarComponent";
-import FooterComponent from "./FooterComponent";
-import EventCard from "./EventCard";
+import NavbarComponent from "./components/NavbarComponent";
+import FooterComponent from "./components/FooterComponent";
+import EventCard from "./components/EventCard";
 import ReactPlayer from "react-player";
 import { db } from "./firebaseConfig";
 import { cardData } from "./constants";
@@ -63,23 +63,13 @@ const App = () => {
       <NavbarComponent />
 
       <Container className="mt-5 mb-5 flex-grow-1">
-        <h1
-          className="text-center"
-          style={{ color: "#FF204E", textDecoration: "underline" }}
-        >
-          <a
-            href="https://docs.google.com/spreadsheets/d/12etNzd3QGozjJpWvQnOEpJSyvRs_p6LMHt1b5-AwA_o/edit?usp=drive_link"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ color: "#FF204E", textDecoration: "underline" }}
-          >
-            Gift Wishlist
-          </a>
+        <h1 className="text-center" style={{ color: "#FF204E" }}>
+          Gift Wishlist
         </h1>
         {products.length !== 0 && (
           <Row className="mt-4">
             {products.map((card, index) => (
-              <Col md={4} key={index} className="mb-4">
+              <Col md={4} lg={3} key={index} className="mb-4">
                 <EventCard card={card} />
               </Col>
             ))}
