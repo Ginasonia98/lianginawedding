@@ -1,9 +1,16 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { Button } from "react-bootstrap";
 import GiftModal from "../components/GiftModal";
 import { Container, Row, Col } from "react-bootstrap";
 import EventCard from "../components/EventCard";
-import { addDoc, collection, getDocs } from "firebase/firestore";
+import {
+  doc,
+  addDoc,
+  collection,
+  getDocs,
+  deleteDoc,
+  updateDoc,
+} from "firebase/firestore";
 import { db } from "../firebaseConfig";
 const Dashboard = () => {
   const giftsRef = collection(db, "products");
@@ -17,17 +24,36 @@ const Dashboard = () => {
     clickCount: 0,
     confirmCount: 0,
   });
+  const [updatedId, setUpdatedId] = useState("");
 
   const handleOpen = () => setShowModal(true);
   const handleClose = () => setShowModal(false);
 
-  const getProducts = async () => {
+  const getProducts = useCallback(async () => {
     const data = await getDocs(giftsRef);
     setGifts(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
-  };
+    setGift({
+      image: "",
+      title: "",
+      text: "",
+      link: "",
+      clickCount: 0,
+      confirmCount: 0,
+    });
+  }, [giftsRef]);
+
+  const updateGift = useCallback(async () => {
+    await updateDoc(doc(db, "products", updatedId), gift).then(async () => {
+      await getProducts();
+    });
+  }, [getProducts, gift, updatedId]);
 
   const handleSave = async (newGift) => {
-    await addDoc(giftsRef, newGift);
+    if (updatedId) {
+      await updateGift();
+    } else {
+      await addDoc(giftsRef, newGift);
+    }
     await getProducts();
   };
 
@@ -39,6 +65,18 @@ const Dashboard = () => {
   const handleSubmit = () => {
     handleSave(gift);
     handleClose();
+  };
+  const deleteGift = async (id) => {
+    await deleteDoc(doc(db, "products", id)).then(async () => {
+      await getProducts();
+    });
+  };
+  const showEditModal = (data) => {
+    setUpdatedId(data.id);
+    setGift(data);
+    setTimeout(() => {
+      handleOpen();
+    }, 1000);
   };
 
   useEffect(() => {
@@ -55,7 +93,12 @@ const Dashboard = () => {
           <Row className="mt-4">
             {gifts.map((card, index) => (
               <Col md={4} lg={3} key={index} className="mb-4">
-                <EventCard card={card} location={"dashboard"} />
+                <EventCard
+                  card={card}
+                  location={"dashboard"}
+                  deleteData={deleteGift}
+                  updateData={showEditModal}
+                />
               </Col>
             ))}
           </Row>

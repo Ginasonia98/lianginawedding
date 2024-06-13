@@ -3,6 +3,7 @@ import React from "react";
 import { Modal, Button, Form } from "react-bootstrap";
 
 const GiftModal = ({ show, handleClose, handleSubmit, gift, handleChange }) => {
+  console.log({ gift });
   return (
     <Modal show={show} onHide={handleClose}>
       <Modal.Header closeButton>
@@ -20,7 +21,7 @@ const GiftModal = ({ show, handleClose, handleSubmit, gift, handleChange }) => {
               placeholder="Enter image URL"
             />
           </Form.Group>
-          <Form.Group controlId="formTitle">
+          <Form.Group className="mt-2" controlId="formTitle">
             <Form.Label>Title</Form.Label>
             <Form.Control
               type="text"
@@ -30,7 +31,7 @@ const GiftModal = ({ show, handleClose, handleSubmit, gift, handleChange }) => {
               placeholder="Enter title"
             />
           </Form.Group>
-          <Form.Group controlId="formText">
+          <Form.Group className="mt-2" controlId="formText">
             <Form.Label>Description</Form.Label>
             <Form.Control
               as="textarea"
@@ -40,7 +41,7 @@ const GiftModal = ({ show, handleClose, handleSubmit, gift, handleChange }) => {
               placeholder="Enter description"
             />
           </Form.Group>
-          <Form.Group controlId="formLink">
+          <Form.Group className="mt-2" controlId="formLink">
             <Form.Label>Link</Form.Label>
             <Form.Control
               type="text"
@@ -52,7 +53,7 @@ const GiftModal = ({ show, handleClose, handleSubmit, gift, handleChange }) => {
           </Form.Group>
         </Form>
       </Modal.Body>
-      <Modal.Footer>
+      <Modal.Footer className="mt-2">
         <Button variant="secondary" onClick={handleClose}>
           Close
         </Button>

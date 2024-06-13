@@ -4,7 +4,7 @@ import GiftConfirmation from "./GiftConfirmation";
 import { setDoc, doc, getDoc } from "firebase/firestore";
 import { db } from "../firebaseConfig";
 
-const EventCard = ({ card, location }) => {
+const EventCard = ({ card, location, deleteData, updateData }) => {
   const { image, title, text, link } = card;
   const [showModal, setShowModal] = useState(false);
   const [receipt, setReceipt] = useState(null);
@@ -53,6 +53,14 @@ const EventCard = ({ card, location }) => {
     }, 1000);
   };
 
+  const deleteGift = () => {
+    deleteData(card.id);
+  };
+
+  const updateGift = () => {
+    updateData(card);
+  };
+
   return (
     <>
       <Card className="h-100">
@@ -75,6 +83,17 @@ const EventCard = ({ card, location }) => {
               </Button>
               <Button className="mt-2" variant="info" onClick={handleShow}>
                 Konfirmasi Pengiriman
+              </Button>
+            </div>
+          )}
+          {location === "dashboard" && (
+            <div className="mt-auto">
+              <Button variant="danger" onClick={deleteGift}>
+                Hapus Hadiah
+              </Button>
+              <br />
+              <Button className="mt-2" variant="info" onClick={updateGift}>
+                Ubah Hadiah
               </Button>
             </div>
           )}
