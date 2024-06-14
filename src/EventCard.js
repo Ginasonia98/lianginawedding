@@ -3,7 +3,9 @@ import { Card, Button } from "react-bootstrap";
 
 const EventCard = ({ image, title, text, link }) => {
   const handleButtonClick = () => {
-    const userConfirmed = window.confirm("Silakan cek pada keterangan gift wishlist. Apakah Anda ingin melanjutkan?");
+    const userConfirmed = window.confirm(
+      "Silakan cek pada keterangan gift wishlist. Apakah Anda ingin melanjutkan?"
+    );
     if (userConfirmed) {
       window.open(link, "_blank");
     }
@@ -32,4 +34,3 @@ const EventCard = ({ image, title, text, link }) => {
 };
 
 export default EventCard;
-
