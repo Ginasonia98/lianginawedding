@@ -1,6 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { FaWhatsapp } from "react-icons/fa"; //
 import NavbarComponent from "../components/NavbarComponent";
 import FooterComponent from "../components/FooterComponent";
 import EventCard from "../components/EventCard";
@@ -39,8 +38,10 @@ const Home = () => {
       }
     };
 
+    // Add a delay to ensure the player is ready
     const timeoutId = setTimeout(handlePlayerReady, 1000);
 
+    // Add event listener to handle autoplay block
     window.addEventListener("click", startAudio);
 
     return () => {
@@ -78,30 +79,6 @@ const Home = () => {
         onReady={() => playerRef.current.seekTo(14)}
         style={{ display: "none" }}
       />
-
-      {/* React Icon */}
-      <a
-        href="https://wa.me/6281398498112"
-        target="_blank"
-        rel="noopener noreferrer"
-        style={{
-          position: "fixed",
-          bottom: "20px",
-          right: "20px",
-          backgroundColor: "#25D366",
-          color: "#fff",
-          borderRadius: "50%",
-          width: "60px",
-          height: "60px",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-          zIndex: 1000,
-        }}
-      >
-        <FaWhatsapp size={30} />
-      </a>
     </div>
   );
 };
