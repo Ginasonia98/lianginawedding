@@ -6,6 +6,7 @@ import EventCard from "../components/EventCard";
 import ReactPlayer from "react-player";
 import { db } from "../firebaseConfig";
 import { collection, getDocs } from "firebase/firestore";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Home = () => {
   const productsRef = collection(db, "products");
@@ -79,6 +80,29 @@ const Home = () => {
         onReady={() => playerRef.current.seekTo(14)}
         style={{ display: "none" }}
       />
+      {/* WhatsApp Icon */}
+      <a
+        href="https://wa.me/6281398498112"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          position: "fixed",
+          bottom: "20px",
+          right: "20px",
+          backgroundColor: "#25D366",
+          color: "#fff",
+          borderRadius: "50%",
+          width: "60px",
+          height: "60px",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+          zIndex: 1000,
+        }}
+      >
+        <FaWhatsapp size={30} />
+      </a>
     </div>
   );
 };
